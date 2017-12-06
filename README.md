@@ -51,3 +51,7 @@ russell run --gpu --mode jupyter --data d2235ba6c9f94d519539d111d789e659
 - 修改jupyter内的风格图位置，可生成专属于你的风格。
 - 在RussellCloud的帮助下，7分钟即可完成迁移。
 
+---
+参考资料
+[cysmith/neural-style-tf](https://github.com/cysmith/neural-style-tf)
+
