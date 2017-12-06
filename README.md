@@ -9,10 +9,11 @@
 ### 本地的使用方法
 
 #### 依赖
+下载预训练权重
+- [imagenet-vgg-verydeep-19.mat](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat)
 ```
 opencv >=3.0
 tensorflow >= 1.0
-[imagenet-vgg-verydeep-19.mat](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat)
 jupyter notebook
 ```
 
@@ -47,6 +48,6 @@ russell run --gpu --mode jupyter --data d2235ba6c9f94d519539d111d789e659
 ```
 
 ## Tips
-- 修改jupyter内的风格图位置，可生成专属的风格。
+- 修改jupyter内的风格图位置，可生成专属于你的风格。
 - 在RussellCloud的帮助下，7分钟即可完成迁移。
 
