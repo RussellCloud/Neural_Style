@@ -1,7 +1,7 @@
 # Neural Style 
 风格迁移tensorflow版
 
-7分钟让你成为模仿高手
+1分钟让你成为模仿高手
 
 
 ## 使用方法
@@ -44,12 +44,12 @@ git clone https://github.com/RussellCloud/Neural_Style.git
 cd Neural_Style
 russell login
 russell init --name Neural_Style
-russell run --gpu --mode jupyter --data d2235ba6c9f94d519539d111d789e659
+russell run "bash stylize_image.sh ./image_input/lion.jpg ./styles/kandinsky.jpg" --gpu  --data bf9f524a384c4a69a021f0cf122815ec:model 
 ```
 
 ## Tips
-- 修改jupyter内的风格图位置，可生成专属于你的风格。
-- 在RussellCloud的帮助下，7分钟即可完成迁移。
+- 修改 `bash stylize_image.sh <path_to_content_image> <path_to_style_image>`，可生成专属于你的风格。
+
 
 ---
 参考资料
