@@ -29,11 +29,10 @@ jupyter notebook
 ### 简单快捷的RussellCloud
 **省去复杂的Opencv和Tensorflow配置过程**
 #### Step 1 
-搞定一个平台账号，[点我](http://russellcloud.com/welcome)，创建名为`Neural_Style`的项目。
+搞定一个平台账号，[点我](http://russellcloud.com/welcome)，创建名为`Neural_Style`的`tensorflow-1.0:py2`项目。
 
 ```
 pip install -U russell-cli
-
 ```
 
 #### Step 2
